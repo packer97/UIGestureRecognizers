@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIGestureRecognizers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ssR-Ko-RS9">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mjG-o4-qPv">
+                                <rect key="frame" x="150.5" y="25" width="74" height="35"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="aYN-sy-aIl"/>
+                                    <constraint firstAttribute="width" constant="74" id="dZa-EC-YPv"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vMK-4O-qpm">
+                                <rect key="frame" x="150.5" y="140" width="74" height="35"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Ua2-cM-ccj"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GnX-kV-odI">
+                                <rect key="frame" x="150.5" y="255" width="74" height="35"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Evv-5I-sKN"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K86-7f-fKp">
+                                <rect key="frame" x="150.5" y="370" width="74" height="35"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="S9M-Yy-Nqr"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ncC-sc-yYh">
+                                <rect key="frame" x="150.5" y="485" width="74" height="35"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="DAj-ke-eVT"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KhR-eB-t2z">
+                                <rect key="frame" x="150.5" y="600" width="74" height="35"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="rjM-12-2KN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="vMK-4O-qpm" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="2CU-Z0-9b0"/>
+                            <constraint firstItem="KhR-eB-t2z" firstAttribute="leading" secondItem="mjG-o4-qPv" secondAttribute="leading" id="5By-sg-CPm"/>
+                            <constraint firstItem="vMK-4O-qpm" firstAttribute="leading" secondItem="mjG-o4-qPv" secondAttribute="leading" id="8SV-Rr-lSZ"/>
+                            <constraint firstItem="ncC-sc-yYh" firstAttribute="leading" secondItem="mjG-o4-qPv" secondAttribute="leading" id="9gC-Ly-pEO"/>
+                            <constraint firstItem="GnX-kV-odI" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ANT-VC-s5b"/>
+                            <constraint firstItem="mjG-o4-qPv" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="AvA-4o-h3K"/>
+                            <constraint firstItem="K86-7f-fKp" firstAttribute="top" secondItem="GnX-kV-odI" secondAttribute="bottom" constant="80" id="Cds-uU-47I"/>
+                            <constraint firstItem="K86-7f-fKp" firstAttribute="leading" secondItem="mjG-o4-qPv" secondAttribute="leading" id="DAT-8c-zel"/>
+                            <constraint firstItem="ssR-Ko-RS9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="IY9-PB-H0K"/>
+                            <constraint firstItem="GnX-kV-odI" firstAttribute="top" secondItem="vMK-4O-qpm" secondAttribute="bottom" constant="80" id="JZd-gp-s4j"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ssR-Ko-RS9" secondAttribute="trailing" id="Jgg-3s-sb6"/>
+                            <constraint firstItem="vMK-4O-qpm" firstAttribute="top" secondItem="mjG-o4-qPv" secondAttribute="bottom" constant="80" id="Tdm-TQ-4Nf"/>
+                            <constraint firstItem="K86-7f-fKp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="VMa-bh-tnF"/>
+                            <constraint firstItem="ncC-sc-yYh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="lUK-mN-HoB"/>
+                            <constraint firstItem="KhR-eB-t2z" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nHe-L5-Evg"/>
+                            <constraint firstItem="mjG-o4-qPv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="pSz-EJ-8uP"/>
+                            <constraint firstItem="ncC-sc-yYh" firstAttribute="top" secondItem="K86-7f-fKp" secondAttribute="bottom" constant="80" id="pdd-ok-huF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ssR-Ko-RS9" secondAttribute="bottom" id="uC2-ZK-UeT"/>
+                            <constraint firstItem="ssR-Ko-RS9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="uek-hG-wvg"/>
+                            <constraint firstItem="GnX-kV-odI" firstAttribute="leading" secondItem="mjG-o4-qPv" secondAttribute="leading" id="vQm-AL-PLa"/>
+                            <constraint firstItem="KhR-eB-t2z" firstAttribute="top" secondItem="ncC-sc-yYh" secondAttribute="bottom" constant="80" id="xgY-1x-Btr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="blackView" destination="KhR-eB-t2z" id="tCD-0A-cHf"/>
+                        <outlet property="blueView" destination="ncC-sc-yYh" id="cfL-zD-ZOJ"/>
+                        <outlet property="greenView" destination="GnX-kV-odI" id="kZU-Vo-w9i"/>
+                        <outlet property="mainView" destination="ssR-Ko-RS9" id="DFw-A7-buz"/>
+                        <outlet property="purpleView" destination="K86-7f-fKp" id="wPA-6z-TzS"/>
+                        <outlet property="redView" destination="mjG-o4-qPv" id="RBq-Sn-waQ"/>
+                        <outlet property="yellowView" destination="vMK-4O-qpm" id="QvN-Ob-aj1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128.80000000000001" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>
